@@ -34,3 +34,38 @@ coverage/
 lcov/
 upload.tar.gz
 
+
+# Valgrind logs
+valgrind_logs
+
+# JUnit test results
+junit_xsl.xslt
+test/mbed-coap/unittest/sn_coap_builder/*.xml
+test/mbed-coap/unittest/sn_coap_header_check/*.xml
+test/mbed-coap/unittest/sn_coap_parser/*.xml
+test/mbed-coap/unittest/sn_coap_protocol/*.xml
+lcov/
+
+# Test modules
+test_modules/
+
+# Build files
+*.o
+*.a
+*.lib
+*.a.d
+*.lib.d
+*.dep
+
+# Executables
+*.exe
+mbed-coap-test
+mbed-coap-coverage
+
+# Fuzzing artifacts
+fuzz/parser_fuzzer
+fuzz/findings/
+*.gcno
+*.gcda
+coverage.html
+
