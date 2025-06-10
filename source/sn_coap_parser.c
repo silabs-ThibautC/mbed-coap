@@ -35,7 +35,8 @@
 #include "mbed-coap/sn_coap_protocol.h"
 #include "sn_coap_header_internal.h"
 #include "sn_coap_protocol_internal.h"
-#include "mbed-trace/mbed_trace.h"
+
+#define tr_error(...)
 
 #define TRACE_GROUP "coap"
 /* * * * * * * * * * * * * * * * * * * * */
